@@ -1,0 +1,22 @@
+BUGS (dans le cas de Pacman) : 
+
+Confirmed : 
+
+- Parfois, le pacman passe au travers des fantomes (Confirmed)
+  (probablement li'e : parfois le pacman en mode superPacGum n'a
+  pas l'effet attendu sur les fantomes).
+
+- le score s'affiche mal avec chevauchement (Confirmed) 
+
+- gestion de la detection de nombre de vies a 0 (actuellement, le jeu s'arrete 
+  definitivement...) (Confirmed)   
+
+- les portes de la zone "Jail" sont franchissables par le Pacman (Confirmed)
+
+Notified : 
+
+- dans le cas o`u une entity est a la fois Movable et MoveBlocker,
+  l'entity peut se bloquer elle-meme (Notified).
+
+- la vitesse du jeu ne semble pas constante tout au long d'une partie (Notified)
+  
